@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 800ms ease-in-out;
+    transition: all 600ms ease-in-out;
 }
 
 .preloader div {

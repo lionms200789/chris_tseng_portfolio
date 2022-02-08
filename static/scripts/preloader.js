@@ -6,6 +6,6 @@ document.onreadystatechange = function () {
 
         setTimeout(() => {
             document.body.removeChild(preloader)
-        }, 1000);
+        }, 650);
     }
 };
