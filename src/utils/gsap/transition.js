@@ -8,7 +8,9 @@ const Transition = ({ from, to, children, classes }) => {
         gsap.fromTo(ref.current, from, to);
     }, [ref]);
 
-    return (<div className={classes} ref={ref}>{children}</div>)
+    return (<div className={classes} style={{
+        opacity: 0
+    }} ref={ref}>{children}</div>)
 }
 
 export default Transition;

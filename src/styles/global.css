@@ -42,7 +42,7 @@
   border-style: solid;
   opacity: 1;
   border-radius: 50%;
-  animation: ripple-effect 1.4285714285714284s cubic-bezier(0,0.2,0.8,1) infinite;
+  animation: ripple-effect 1.5s cubic-bezier(0,0.2,0.8,1) infinite;
 }
 
 .preloader div:nth-child(1) {
